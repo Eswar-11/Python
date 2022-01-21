@@ -9,6 +9,7 @@ number:5
 
 """
 
+#code:
 n=int(input("number:"))
 k=n
 for i in range(0,n):
