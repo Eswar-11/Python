@@ -1,4 +1,4 @@
-## Lambda arguments:expression
+** Lambda arguments:expression **
 # code:
 x=lambda a: a*a
 x(3)
