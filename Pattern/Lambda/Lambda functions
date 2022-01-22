@@ -36,3 +36,7 @@ print(newlist)
 
 #Lambda within reduce():
 #code:
+from functools import reduce
+mylist=reduce(lambda a,b: a+b,[1,2,3,4,5,6]) #SYNTAX: reduce(function, sequence)
+print(mylist)
+
