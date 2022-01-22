@@ -5,7 +5,7 @@
   
 2.Why are they used?
   One-time use: Also known as throw-away functions as they are needed just once.
-  I/O of other functions: They are also passed as input or returned as output of other higher-order functiins.
+  I/O of other functions: They are also passed as input or returned as output of other higher-order functions.
   Reduce code size: The body of Lambda functions is written in a single line.
   
 3.How to write Anonymous functions?
