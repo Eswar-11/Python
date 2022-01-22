@@ -20,4 +20,5 @@
 
 5.Using Lambda functions within filter(), map(), reduce()
   filter(): Used to filter the given iterables(lists, sets, etc) with the help of another function passed as an argument to test all the elements to be true or false.
-  
+  map(): Applies a given function to all the iterables and returns a new list.
+  reduce(): 
