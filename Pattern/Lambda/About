@@ -17,3 +17,7 @@
 
 4.Anonymous functions within user defined functions
   Lambda functions are best used within other higher-order functions
+
+5.Using Lambda functions within filter(), map(), reduce()
+  filter(): Used to filter the given iterables(lists, sets, etc) with the help of another function passed as an argument to test all the elements to be true or false.
+  
