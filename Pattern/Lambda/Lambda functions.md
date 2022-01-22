@@ -4,8 +4,8 @@ x=lambda a: a*a
 x(3)
 
 
-#Lambda within user-defined functions
-#code1:
+## Lambda within user-defined functions
+# code1:
 def A(x):
     return(lambda y:x+y)
 t=A(4)
