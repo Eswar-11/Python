@@ -14,3 +14,6 @@
     lambda arguments: expression
     lambda: "Specify the purpose"
     lambda a₁: "Specify use of a₁"
+
+4.Anonymous functions within user defined functions
+  Lambda functions are best used within other higher-order functions
