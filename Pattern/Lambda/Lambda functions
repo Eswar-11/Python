@@ -20,4 +20,12 @@ u=A(7)
 print(u(5))
 
 
-   
+#Lambda within filter()
+#code:
+mylist=[1,2,3,4,5,6]
+newlist=list(filter(lambda a:(a/3==2),mylist)) #SYNTAX: filter(function, interables)
+print(newlist)
+
+
+#Lambda within map()
+#code:
