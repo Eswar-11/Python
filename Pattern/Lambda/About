@@ -22,3 +22,5 @@
   filter(): Used to filter the given iterables(lists, sets, etc) with the help of another function passed as an argument to test all the elements to be true or false.
   map(): Applies a given function to all the iterables and returns a new list.
   reduce(): Applies some other function to a list of elements that are passed as a parameter to it and finally returns a single value.
+
+  
