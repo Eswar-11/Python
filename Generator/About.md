@@ -10,7 +10,7 @@
   * Can be used to produce infinite items.
   * Can also be used to pipeline a number of operations.
 
-
+3. Normal functions vs Generators
 
 | Generator functions  | Normal functions |
 | ------------- | ------------- |
