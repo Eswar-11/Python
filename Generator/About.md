@@ -12,7 +12,7 @@
 
 
 3. Normal functions vs Generators\
-| Generator functions        | Normal Functions             |
+| Generator functions        | Generator functions             |
 | -------------------------- | ---------------------------- |
 | Make use of 'yield keyword | Make use of 'return' keyword |
   
@@ -36,7 +36,7 @@
   * Sinewave: Generating sine waves using Seaborn.
 
 
-| First Header  | Second Header |
+| Generator functions  | Normal functions |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
