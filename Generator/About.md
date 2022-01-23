@@ -38,5 +38,5 @@
 
 | Generator functions  | Normal functions |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| Make use of 'yield keyword  | Make use of 'return' keyword  |
 | Content Cell  | Content Cell  |
