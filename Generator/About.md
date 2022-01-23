@@ -1,5 +1,5 @@
 1.What are Generators?\
-  ⁕ Are functions that return traversable objects\
+  1. Are functions that return traversable objects\
 __⁕ Produce items one at a time and only when required\
 __⁕ Are run along with 'for' loops
   
