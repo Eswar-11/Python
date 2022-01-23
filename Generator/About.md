@@ -11,7 +11,7 @@
   * Can also be used to pipeline a number of operations.
 
 
-3. Normal functions vs Generators\
+3. Normal functions vs Generators
 | Generator functions  | Normal functions |
 | ------------- | ------------- |
 | Make use of 'yield keyword  | Make use of 'return' keyword  |
