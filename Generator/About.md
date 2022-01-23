@@ -12,9 +12,11 @@
 
 
 3. Normal functions vs Generators\
-| Generator functions        | Generator functions             |
-| -------------------------- | ---------------------------- |
-| Make use of 'yield keyword | Make use of 'return' keyword |
+| Generator functions  | Normal functions |
+| ------------- | ------------- |
+| Make use of 'yield keyword  | Make use of 'return' keyword  |
+| Run when ‘next()’ method is called  | Run when name of the method is called  |
+| Produce items one at a time and only when required| Produce all the items at once|
   
 
 4. Writing Generators in Python
