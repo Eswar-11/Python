@@ -13,7 +13,7 @@
 
 3. Normal functions vs Generators\
 | Generator functions        | Normal Functions             |
-| -------------------        | ----------------             |
+| -------------------------- | ---------------------------- |
 | Make use of 'yield keyword | Make use of 'return' keyword |
   
 
