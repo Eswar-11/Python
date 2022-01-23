@@ -1,4 +1,4 @@
-1.What are Generators?
+1.What are Generators?\
   ⁕ Are functions that return traversable objects
   ⁕ Produce items one at a time and only when required
   ⁕ Are run along with 'for' loops
