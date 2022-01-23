@@ -36,12 +36,3 @@
   * Fibonacci Series: A series of numbers where in each number also called as the Fibonacci number is the sum of the two preceding numbers.
   * Number Stream: Generating a stream of numbers.
   * Sinewave: Generating sine waves using Seaborn.
-
-
-| Generator functions  | Normal functions |
-| ------------- | ------------- |
-| Make use of 'yield keyword  | Make use of 'return' keyword  |
-| Run when ‘next()’ method is called  | Run when name of the method is called  |
-| Produce items one at a time and only when required| Produce all the items at once|
-
-3. Normal functions vs Generators
