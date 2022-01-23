@@ -1,1 +1,99 @@
+#code:
+def new(dict):
+    for x,y in dict.items():
+        yield x,y
+a={1:"Hi", 2:"Welcome"}
+b=new(a)
+print(b)
+print(next(b))
+print(next(b))
 
+#code:
+def myfunc(i):
+    while i<=3:
+        yield i
+        i+=1
+j=myfunc(2)
+print(next(j))
+print(next(j))
+
+
+#Using for loop
+#code:
+def ex():
+    n=3
+    yield n
+    n=n*n
+    yield n
+v=ex()
+for x in v:
+    print(x)
+    
+ 
+#code:
+f=range(6)
+print("List comp", end=":")
+q=[x+2 for x in f]
+print(q)
+print("gen exp",end=":")
+r=(x+2 for x in f)
+print(r)
+
+
+#Fibonacci Series
+#code:
+def fib():
+    f, s=0,1
+    while True:
+        yield f
+        f,s=s,f+s
+for x in fib():
+    if x>50:
+        break
+    print(x, end=" ")
+    
+    
+#Number Stream
+#code:
+a=range(100)
+b=(x for x in a)
+print(b)
+for y in b:
+    print(y)
+    
+#even numbers
+#code
+a=range(2,100,2)
+b=(x for x in a)
+print(b)
+for y in b:
+    print(y)
+    
+    
+#Sinewave
+#code:
+import numpy as np
+from matplotlib import pyplot as plt
+import seaborn as sb
+def s(flip = 2):
+    x=np.linspace(0,14,100)
+    for i in range(1,5):
+        plt.plot(x, np.sin(x+i*.5)*(7-i)*flip)
+sb.set()
+s()
+plt.show()
+
+#using yield
+#code:
+#code:
+import numpy as np
+from matplotlib import pyplot as plt
+import seaborn as sb
+def s(flip = 2):
+    x=np.linspace(0,14,100)
+    for i in range(1,10):
+        yield(plt.plot(x, np.sin(x+i*.5)*(7-i)*flip))
+sb.set()
+S=s()
+print(next(S))
+print(plt.show())
