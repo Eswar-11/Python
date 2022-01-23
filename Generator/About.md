@@ -1,7 +1,7 @@
 1.What are Generators?\
-  ⁕ Are functions that return traversable objects
-  ⁕ Produce items one at a time and only when required
-  ⁕ Are run along with 'for' loops
+__⁕ Are functions that return traversable objects\
+__⁕ Produce items one at a time and only when required\
+__⁕ Are run along with 'for' loops\
   
 2.Advantages of using Generators
   ⁕ Easy to Implement.
