@@ -19,8 +19,8 @@
   1. Generators created using the ‘def’ keyword
   2. Make use of the yield keyword instead of return
 
-5.Generators with Loops/
-  To execute the generator function at once. You can ‘for’ loop. This loop iterates over all the objects and after all implementations, it executes StopIteration.
+5.Generators with Loops\
+  * To execute the generator function at once. You can ‘for’ loop. This loop iterates over all the objects and after all implementations, it executes StopIteration.
 
 6.Generator Expressions\
   Resemble list comprehensions and like lambda functions, generator expressions create anonymous generator functions.
