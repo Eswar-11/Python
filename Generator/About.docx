@@ -1,0 +1,14 @@
+1.What are Generators?
+  ⁕ Are functions that return traversable objects
+  ⁕ Produce items one at a time and only when required
+  ⁕ Are run along with 'for' loops
+  
+2.Advantages of using Generators
+  ⁕ Easy to Implement.
+  ⁕ Better memory management and utilization.
+  ⁕ Can be used to produce infinite items.
+  ⁕ Can also be used to pipeline a number of operations.
+  
+3.Normal functions vs Generators
+  
+
