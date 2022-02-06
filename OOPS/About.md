@@ -8,17 +8,17 @@
 
 #Code: \
 class car():\
-    pass\
+    pass
 
 honda = car()\
-tata = car()\
+tata = car()
 
 honda.modelname = 'City'\
 honda.yearm = 2017\
-honda.price = 100000\
+honda.price = 100000
 
 tata.modelname = 'Bolt'\
 tata.yearm = 2016\
-tata.price = 600000\
+tata.price = 600000
 
-print(honda.price)\
+print(honda.price)
