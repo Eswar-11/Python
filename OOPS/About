@@ -1,6 +1,7 @@
 1. Classes and Objects
    1. Classes in Python
      * A class is the blueprint from which specific objects are created.
+     
      | Class |
      | ----- |
      | Class Variable | Instance Variable | Data Member |
