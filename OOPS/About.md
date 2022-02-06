@@ -6,7 +6,7 @@
 | ----- | ----- | ----- |
 | A variable that is shared by all instances of a class. | Instance variable unique to each instance | A class variable or instance variable that holds data associated with a class and its objects. |
 
-#Code: /n
+#Code: /
 class car():
     pass
 
