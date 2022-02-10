@@ -23,4 +23,11 @@
        * It can only be inherited. 
 
 4. Inheritance in Python
-   * __init__() Function: __init__() function is called automatically every time the class is used to create an object.
+    * __init__() Function: __init__() function is called automatically every time the class is used to create an object.
+
+5. Types of Inheritance
+    * Single: When the inheritance involves one child class and one parent class.
+    * Multiple: It involves more than one parent class.
+    * Multilevel: The child class acts as a parent class for another child class.
+    * Hierarchical: More than one type of inheritance.
+
