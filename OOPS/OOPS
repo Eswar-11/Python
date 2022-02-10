@@ -177,7 +177,7 @@ ob.func1()
 ob1.func2()
 
 
-#Super
+#Super Function
 #code:
 class Parent:
     def func1(self):
@@ -192,3 +192,5 @@ ob = child()
 ob.func2()
 
 
+#Method Overriding:
+#code:
