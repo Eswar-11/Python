@@ -33,3 +33,7 @@
 
 6. Python Super Function
     * Super function directly calls the parent class method.
+
+7. Method Overriding
+    * Method Overriding can be achieved to change functionality of parent class function.
+
