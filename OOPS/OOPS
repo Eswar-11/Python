@@ -119,7 +119,7 @@ ob = child()
 ob.func1()
 
 
-#Multi:
+Multiple:
 #code:
 class Parent:
     def func1(self):
