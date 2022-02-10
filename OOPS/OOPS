@@ -177,3 +177,18 @@ ob.func1()
 ob1.func2()
 
 
+#Super
+#code:
+class Parent:
+    def func1(self):
+        print("this is function 1")
+
+class child(Parent):
+    def func2(self):
+        super().func1()
+        print("this is function 2")
+
+ob = child()
+ob.func2()
+
+
