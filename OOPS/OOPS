@@ -204,7 +204,3 @@ class child(Parent):
 
 ob = child()
 ob.func1()
-
-
-#Exception Handling:
-#code:
