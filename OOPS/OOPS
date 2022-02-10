@@ -104,3 +104,37 @@ ob=Child(23,'python')
 ob.view()
 
 
+#Inheritance:
+#Single:
+#code:
+class Parent:
+    def func1(self):
+        print("this is function 1")
+
+class child(Parent):
+    def func2(self):
+        print("this is function 2")
+
+ob = child()
+ob.func1()
+
+
+#Multi:
+#code:
+class Parent:
+    def func1(self):
+        print("this is function 1")
+
+class Parent2:
+    def func2(self):
+        print("this is function 2")
+
+class child(Parent,Parent2):
+    def func3(self):
+        print("this is function 3")
+
+ob = child()
+ob.func1()
+ob.func2()
+
+
