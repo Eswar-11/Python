@@ -36,4 +36,3 @@
 
 7. Method Overriding
     * Method Overriding can be achieved to change functionality of parent class function.
-
