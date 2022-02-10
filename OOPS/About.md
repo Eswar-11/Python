@@ -23,4 +23,4 @@
        * It can only be inherited. 
 
 4. Inheritance in Python
-   __init__() Function: __init__() function is called automatically every time the class is used to create an object.
+   * __init__() Function: __init__() function is called automatically every time the class is used to create an object.
