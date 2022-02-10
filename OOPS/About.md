@@ -31,3 +31,5 @@
     * Multilevel: The child class acts as a parent class for another child class.
     * Hierarchical: More than one type of inheritance.
 
+6. Python Super Function
+    * Super function directly calls the parent class method.
