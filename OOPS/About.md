@@ -21,3 +21,6 @@
        * You can achieve abstraction using Abstract classes and Interfaces.
        * Abstract Class cannot be instantiated.
        * It can only be inherited. 
+
+4. Inheritance in Python
+   __init__() Function: __init__() function is called automatically every time the class is used to create an object.
