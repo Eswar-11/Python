@@ -119,7 +119,7 @@ ob = child()
 ob.func1()
 
 
-Multiple:
+#Multiple:
 #code:
 class Parent:
     def func1(self):
@@ -130,6 +130,25 @@ class Parent2:
         print("this is function 2")
 
 class child(Parent,Parent2):
+    def func3(self):
+        print("this is function 3")
+
+ob = child()
+ob.func1()
+ob.func2()
+
+
+#Multilevel:
+#code:
+class Parent:
+    def func1(self):
+        print("this is function 1")
+
+class Parent2(Parent):
+    def func2(self):
+        print("this is function 2")
+
+class child(Parent2):
     def func3(self):
         print("this is function 3")
 
