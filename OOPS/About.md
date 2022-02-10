@@ -11,4 +11,13 @@
    1. Inheritance:
        * A class can inherit attributes and behavior methods from another class, called the superclass.
        * A class which inherits from a superclass is called a subclass, also called heir class or child class.
-      
+    
+   2. Encapsulation:
+       * Binding the data ans code together as a single unit.
+       * Securing data by hiding the implementation details to user.
+     
+   3. Abstraction:
+       * Hides the implementation details and only provides the functionality to the user.
+       * You can achieve abstraction using Abstract classes and Interfaces.
+       * Abstract Class cannot be instantiated.
+       * It can only be inherited. 
