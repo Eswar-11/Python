@@ -4,3 +4,5 @@
 2. How to create a module in Python?
     * Simply writing a python code in a file is how we can create a module.
 
+3. How to call a module in Python?
+    * We have to use the import keyword to incorporate the module into our program.
