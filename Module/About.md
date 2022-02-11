@@ -6,3 +6,10 @@
 
 3. How to call a module in Python?
     * We have to use the import keyword to incorporate the module into our program.
+
+4. Built-in modules in Python
+    * Built in modules are written in C and interpreted using the python interpreter.
+
+5. Python modules search path
+    * When we import a module, Python searches for the module at certain places.
+    * If it cannot find the module in the built-in modules, it searches through the list in the sys.path.
