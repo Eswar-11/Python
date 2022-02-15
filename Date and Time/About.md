@@ -11,4 +11,27 @@
    | mktime() | Returns the seconds passed since epoch pas output |
    | asctime()| Returns a string representing the same |
 
+   * Attributes of struct_time class
+   
+   | Attribute | Value |
+   | --------- | ----- |
+   | tm_year   | 0000, ...,2019, ...,9999 |
+   | tm_mon    | 1-12  |
+   | tm_mday   | 1-31  |
+   | tm_hour   | 0-23  |
+   | tm_min    | 0-59  |
+   | tm_sec    | 0-61  |
+   | tm_wday   | 0-6, Monday as 0 |
+   | tm_yday   | 1-366 |
+   | tm_isdst  | 0, 1, -1 |
 
+2. The datetime module
+   | Function | Description |
+   | -------- | ----------- |
+   | datetime() | Datetime constructor |
+   | datetime.today() | Returns the current date and time |
+   | datetime.now() | Returns the current date and time |
+   | date() | Takes year, month and day as parameter and creates the corresponding date |
+   | time() | Takes hour, min, sec, microseconds and tzinfo as parameter and creates the corresponding date |
+   | datetime.fromstamp() | Converts seconds to return the corresponding date and time |
+   | timedelta() | It is the difference between different dates or times(Duration) |
