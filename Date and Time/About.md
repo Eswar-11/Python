@@ -35,3 +35,4 @@
    | time() | Takes hour, min, sec, microseconds and tzinfo as parameter and creates the corresponding date |
    | datetime.fromstamp() | Converts seconds to return the corresponding date and time |
    | timedelta() | It is the difference between different dates or times(Duration) |
+
