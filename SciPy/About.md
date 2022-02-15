@@ -44,4 +44,13 @@
    2. Double Integration
       * The dblquad function calculates double integral of a function which has two variables.
       
- 
+7. Fourier Transformations
+   * Fourier analysis is a method that deals with expressing a function as a sum of periodic components and recovering the signal from those components
+   * The fft and ifft functions can be used to return the discrete Fourier transform of a real or comples sequence.
+
+8. Linear Algebra
+   * SciPy is built on ATLAS LAPACK and BLAS libraries and is extremely fast in solving problems related to linear algebra
+   * Inverse of a matrix A is the matrix B such that AB=I where I is the identity matrix consisting of ones down the main diagonal denoted as B=A⁻¹
+
+9. Interpolation Functions
+   * Interpolation refers to constructing new data points within a set of known data points. The scipy.interpolate consists of spline functions and classes, one-dimensional and multi-dimensional (univariate and multivariate) interpolation classes, etc.
