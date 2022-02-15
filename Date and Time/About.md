@@ -1,4 +1,5 @@
 1. The time module
+  
    | Function | Description |
    | -------- | ----------- |
    | time()   | Returns the number of seconds |
