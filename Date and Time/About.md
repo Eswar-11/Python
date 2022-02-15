@@ -1,5 +1,6 @@
 1. The time module
    * Begins recording time from the epoch that begins at 00:00:00, 1st Jan 1970
+   
    | Function | Description |
    | -------- | ----------- |
    | time()   | Returns the number of seconds |
