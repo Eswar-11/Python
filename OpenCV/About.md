@@ -1,2 +1,2 @@
-* What is Computer Vision
+1. What is Computer Vision
    * 
